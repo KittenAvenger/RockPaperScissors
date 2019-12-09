@@ -25,7 +25,7 @@ def determine_winner(comp_shape, hum_shape):
         w_s, l_s = 3, 3
 
     if w_s == 3:  # to je draw
-        print("You both chose", comp_shape, "it s a draw")
+        print("You both chose", comp_shape, "it's a draw")
     else:
         print(w_s, "beats", l_s, ", ", w_p, "wins")
 
